@@ -1,12 +1,52 @@
-# React + Vite
+# 💱 Currency Converter Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application that enables real-time currency conversion between 160+ international currencies. Built using **React.js**, **Tailwind CSS**, and a **public currency exchange API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 [currency-convertor-mocha-kappa.vercel.app](https://currency-convertor-mocha-kappa.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Preview
+
+![App Screenshot](./public/screenshot.png)
+
+---
+
+## 🚀 Features
+
+- Real-time currency conversion using live exchange rates
+- Conversion between 160+ currencies
+- Intuitive, responsive UI with Tailwind CSS
+- Two-way binding between input fields and state
+- Currency switching functionality
+- Error handling for invalid inputs
+
+---
+
+## 🛠️ Installation & Setup
+
+### ⚙️ Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node)
+
+---
+
+### 📦 Installation Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/archit-tiwari-26/Currency-Convertor.git
+cd Currency-Convertor
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
